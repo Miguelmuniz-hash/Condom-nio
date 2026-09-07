@@ -31,7 +31,7 @@ body{
 }
 
 .navbar img{
-    width: 230px;
+    width: 220px;
 }
 
 .botoes_inicio{
@@ -400,7 +400,7 @@ margin-top: 60px;
   font-family: sans-serif;
   color: #ffffff;
   width: 100%;
-  margin-top: 85px;
+  margin-top: 70px;
 }
 
 .footer-container {
@@ -444,6 +444,10 @@ margin-top: 60px;
   font-size: 15px;
   line-height: 1.5;
   margin: 0;
+}
+
+.footer-column li{
+     text-decoration: none;
 }
 
 .footer-column h3 {
@@ -508,3 +512,249 @@ margin-top: 60px;
   margin: 0;
 }
 
+
+/*SOBRE NÓS*/
+
+.banner-sobre{
+    background-color: #0D2E63;
+    padding: 20px 200px ;
+    margin: 60px;
+
+    border-radius: 30px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-sobre img{
+    width: 460px;
+    border-radius: 30px;
+}
+
+.banner-sobre h1{
+    font-family: sans-serif;
+    font-size: 55px;
+    color: #FAF9F6;
+
+    margin-bottom: -1px;
+}
+
+.banner-sobre span{
+    color: #D4AF37;
+}
+
+.banner-sobre p{
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #FAF9F6;
+}
+
+.textos-sobre{
+    margin-top: -23px;
+}
+
+/*nosso propósito*/
+
+.nossopropóstio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.nossopropóstio h1{
+    color: #0D2E63;
+    font-family: sans-serif;
+}
+
+.nossopropóstio p{
+    margin-top: -2px;
+    color: #D4AF37;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+.propositos{
+    margin-top: -20px;
+    grid-template-columns: repeat(3, 1fr);
+    display: grid;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+
+    padding: 50px 490px;
+    gap: 24px;
+
+    font-family: sans-serif;
+}
+
+.propositos p{
+    font-size: 14px;
+}
+
+.card_sobre{
+border: 1px solid #e2e8f0;
+background-color: #FAF9F6;
+border-radius: 12px;
+padding: 20px;
+}
+
+.card_sobre h4{
+    color: #0D2E63;
+}
+
+.card_sobre p{
+    color: #4b5563;
+}
+
+.valores-sobre{
+background-color: #0D2E63;
+padding: 20px;
+border-radius: 12px;
+
+
+}
+
+.valores-sobre h4{
+    color: #D4AF37;
+}
+
+.valores-sobre li{
+    color: #d1dbe5;
+    font-size: 14px;
+    margin: 8px;
+}
+
+/*Estrutura*/
+
+.section_estrutura{
+background-color: #0D2E63;
+margin: 60px ;
+border-radius: 30px;
+
+margin-top: 60px;
+
+    display: flex;
+    align-items: center;
+    padding: 25px;
+    
+    justify-content: space-around;
+   
+}
+
+
+.section_estrutura h1 {
+  font-family: sans-serif;
+    font-size: 55px;  
+    color: #ffffff;    
+    line-height: 1.15;
+    margin-bottom: 28px;
+}
+
+.section_estrutura p {
+  font-family: sans-serif;
+  font-size: 16px;
+    color: #ffffff;
+}
+
+.section_estrutura span{
+    color: #D4AF37;
+}
+.botao_plano_estrutua{
+    display: flex;
+    align-items: center;
+
+    margin-top: 25px;
+    margin-bottom: 10px;
+    margin-left: 160px;
+    padding: 8px 20px;
+    width: 200px;
+
+    border-radius: 10px;
+    background-color: #D4AF37;
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.botao_plano_estrutua a{
+    text-decoration: none;
+    color: #0D2E63;
+}
+
+.imagem_estrutura{
+ max-width: 500px;  
+    width: 100%;
+    height: auto;
+    border-radius: 24px; 
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.05);
+}
+
+/*informações*/
+.informações2_estrutura{
+    display: flex;
+    gap: 24px;
+    
+}
+
+.estrutura-informações{
+font-size: 15px;
+}
+
+.estrutura-informações p{
+    color: #4b5563;
+}
+
+.estrutura-informações h4{
+    color: #0D2E63;
+}
+
+.estrutura-informações{
+display: flex;
+justify-content: center;
+font-family: sans-serif;
+}
+
+
+.tecnologia-azul{
+    background-color: #0D2E63;
+    height: 350px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    
+   justify-content: center;
+   padding: 20px;
+
+   border-radius: 12px;
+}
+
+.tecnologia-azul{
+    font-size: 15px;
+    
+}
+
+.tecnologia-azul h4{
+    color: #D4AF37;
+}
+
+.tecnologia-azul p{
+    color: #c0c5ca;
+}
+
+.tecnologia-azul img{
+    
+    width: 350px;
+    display: flex;
+    
+    margin: auto;
+    border-radius: 12px;
+}
+
+
+.duasinfmrações_estrutura{
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+    padding: 20px;
+}
