@@ -692,6 +692,13 @@ margin-top: 60px;
 }
 
 /*informações*/
+
+.texto1_estrutura{
+    background-color: #D4AF37;
+    height: 1px;
+    border: none;
+}
+
 .informações2_estrutura{
     display: flex;
     gap: 24px;
@@ -757,4 +764,477 @@ font-family: sans-serif;
     border-radius: 12px;
     border: 1px solid #e2e8f0;
     padding: 20px;
+}
+
+/*termos e condições*/
+
+.section_termos_condicoes{
+    margin: 60px;
+    background-color: #0D2E63;
+    padding: 40px;
+    border-radius: 30px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    font-family: sans-serif;
+    
+}
+
+.section_termos_condicoes h1{
+font-size: 50px;
+color: #e2e8f0;
+margin-top: 7px;
+}
+
+.section_termos_condicoes p{
+font-size: 17px;
+color: #e2e8f0;
+margin-top: -3px;
+}
+
+.section_termos_condicoes span{
+color: #D4AF37;
+}
+
+.intrdução_termos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    font-family: sans-serif;
+}
+
+.intrdução_termos h2{
+    color: #0D2E63;
+}
+
+.intrdução_termos p{
+    color: #4b5563;
+    margin-top: -3px;
+}
+
+/*termos*/
+
+.informações1_termos{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    align-items: stretch;
+
+    background-color: #FAF9F6;
+    padding: 30px;
+    width: 900px;
+    gap: 115px;
+
+    font-family: sans-serif;
+    color: #4b5563;
+}
+
+.informações1_termos h2, h4, b{
+    color: #0D2E63;
+}
+
+.coleta2{
+    width: 1050px;
+}
+
+.coleta2 button{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #D4AF37;
+    padding: 18px;
+
+    font-family: sans-serif;
+    color: #e2e8f0;
+    border: none;
+    border-radius: 10px;
+
+    margin-left: 90px;
+}
+
+.coleta2 a{
+    text-decoration: none;
+}
+
+.coleta2 img{
+    width: 25px;
+}
+
+.divisor{
+    width: 1px;
+    border: none;
+    background-color: #D4AF37;
+    margin-top: 30px;
+    height: 350px;
+}
+
+.informações2_estrutura{
+    flex-direction: row;
+    display: flex;
+
+gap: 60px;
+}
+
+.coleta1{
+width: 1060px;
+}
+
+.informações1_termos p{
+    font-size: 17px;
+}
+
+
+/*pagamento cartão*/
+
+.bloco_brancoPAGAMANETO{
+     order: 1; 
+     display: flex;
+     flex-direction: column;
+
+     max-width: 580px;
+
+      border-radius: 8px;
+   
+box-shadow: 0 20px 45px rgba(13, 46, 99, 0.15), 0 6px 18px rgba(13, 46, 99, 0.08);
+    padding: 40px;
+
+    
+}
+
+.bloco_brancoPAGAMANETO2{
+     order: 1; 
+     display: flex;
+     flex-direction: column;
+
+     max-width: 580px;
+
+      border-radius: 8px;
+   
+box-shadow: 0 20px 45px rgba(13, 46, 99, 0.15), 0 6px 18px rgba(13, 46, 99, 0.08);
+    padding: 40px;
+
+    border-top: 5px solid #D4AF37;
+}
+
+
+.bloco_azulPAGAMANETO{
+     background-color: #0D2E63;
+    order: 2; 
+    width: 100%;
+    max-width: 500px;
+    border-radius: 8px;
+    padding: 35px;
+    box-sizing: border-box;
+    
+
+  
+}
+
+.bloco_Pagamento1{
+    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+    
+align-items: stretch;
+
+  gap: 40px; 
+    
+
+    max-width: 1200px; 
+    margin: 40px auto; 
+    
+   
+ 
+}
+
+.imgame_cartao{
+    display: flex;
+    align-items: center;
+}
+
+.imgame_cartao img {
+    max-width: 32px;
+    height: auto;
+    
+}
+
+.bloco_brancoPAGAMANETO label {
+    font-family: sans-serif;
+    font-size: 0.85rem;
+    font-weight: bold;
+    color: #0D2E63;
+    margin-top: 15px;
+    margin-bottom: 6px;
+    text-transform: uppercase; 
+}
+
+.bloco_brancoPAGAMANETO input {
+    width: 100%;
+    padding: 12px 16px;
+    border: 1px solid #CBD5E1;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    color: #333333;
+    background-color: #FAFAFA;
+    box-sizing: border-box; 
+    outline: none;
+}
+
+/* BOTÃO DE FINALIZAR PAGAMENTO */
+.bloco_brancoPAGAMANETO button {
+    width: 100%;
+    background-color: #0D2E63;
+    color: #ffffff;
+    padding: 14px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.bloco_brancoPAGAMANETO p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    font-size: 0.8rem;
+    color: #A0AEC0;
+    font-family: sans-serif;
+    margin-top: 15px;
+}
+
+.criptografia_Pagamento img{
+
+    max-width: 30px;
+    height: auto;
+}
+
+.bloco_azulPAGAMANETO .span1,
+.bloco_azulPAGAMANETO .span2,
+.bloco_azulPAGAMANETO .span3{
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin-bottom: 8px;
+}
+
+.bloco_azulPAGAMANETO h3{
+    font-family: sans-serif;
+    color: #FFFFFF;
+}
+
+.bloco_azulPAGAMANETO h2{
+    font-family: sans-serif;
+    color: #D4AF37;
+}
+
+.bloco_brancoPAGAMANETO h2{
+    font-family: sans-serif;
+    color: #0D2E63;
+}
+
+.faturamentoAnual{
+    font-family: sans-serif;
+    color: #A1B2C8;
+    margin-top: -10px
+}
+
+.dinheiro_azul{
+    font-family: sans-serif;
+    color: #FFFFFF;
+    font-weight: 550;
+}
+
+.bloco_azulPAGAMANETO li{
+    font-family: sans-serif;
+    color: #A1B2C8;
+    list-style: none;
+    display: flex;
+    align-items: center;
+
+    margin-left: -45px;
+}
+
+.imnagens_certinhos img{
+    max-width: 25px;
+    height: auto;
+}
+
+.bloco_azulPAGAMANETO .span1,
+.bloco_azulPAGAMANETO .span2{
+    font-family: sans-serif;
+    color: #A1B2C8;
+
+}
+
+
+.bloco_azulPAGAMANETO .span2{
+    margin-top: -25px;
+    margin-bottom: 30px;
+}
+.bloco_azulPAGAMANETO .span2_0{
+    margin-top: -21px;
+    margin-bottom: 1px;
+   display: flex;
+   align-items: center;
+}
+
+.span2_0 p{
+    color: #D4AF37;
+}
+
+.desconto_pix{
+    margin-left: -170px;
+}
+
+.span2_0 img{
+    height: auto;
+    max-width: 28px;
+    
+}
+
+.span3_1{
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.span3_2{
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #D4AF37;
+}
+
+.titulo_pagamento{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.titulo_pagamento p{
+    margin-top: -10px;
+    color: #4b5563;
+    
+}
+
+.titulo_pagamento h1{
+    color: #0D2E63;
+    
+}
+
+
+.qr_code{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 33px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    margin: 8px;
+    box-sizing: border-box;
+    background-color: #fcfcfc
+}
+
+.qr_code img{
+   height: auto;
+   max-width: 250px;
+
+   margin: auto;
+   display: flex;
+   flex-direction: column;
+  
+}
+
+.qr_code p{
+   text-align: center;
+   font-family: sans-serif;
+   font-size: 14px;
+   
+}
+
+.li_branco ul{
+   display: flex;
+    align-items: center;
+    list-style: none;
+
+    font-family: sans-serif;
+    color: #4b5563;
+    font-size: 14px;
+}
+.li_branco{
+    list-style: none;
+    margin-left: -35px;
+}
+
+.li_branco span{
+    color: #FFFFFF;
+}
+
+.li_branco img{
+   height: auto;
+   max-width: 25px;
+   
+}
+
+.preço_pix{
+margin-top: 25px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 5px 20px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+.preço_pix2{
+    margin-top: -22px;
+}
+
+.preço_desconto{
+    color: #D4AF37;
+    font-family: sans-serif;
+    font-size: 23px;
+}
+
+.preço_pix h2{
+   color: #FFFFFF;
+}
+
+.criptografado_pagamento{
+    display: flex;
+    align-items: center;
+
+    padding: 5px 20px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.08);
+
+    gap: 8px;
+}
+
+.criptografado_pagamento img{
+height: auto;
+max-width: 22px;
+}
+
+.criptografado_pagamento p{
+color: #A1B2C8;
+font-family: sans-serif;
+font-size: 15px;
 }
