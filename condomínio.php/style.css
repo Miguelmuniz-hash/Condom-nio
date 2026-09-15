@@ -1,5 +1,7 @@
 /*navbar*/
-
+:root{
+    --cor-principal: #D4AF37;
+}
 body{
     margin: auto;
     background-color: #FAF9F6;
@@ -54,7 +56,7 @@ align-items: center;
 
 padding: 8px 20px;
 
-color: #D4AF37;
+color: var(--cor-principal);
 }
 
 .botao_2{
@@ -262,7 +264,7 @@ width: 100%;
     
     gap: 40px; 
    margin-top: 10px;
-    max-width: 1450px; 
+    max-width: 1385px; 
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -583,7 +585,7 @@ margin-top: 60px;
     justify-content: center;
     align-items: stretch;
 
-    padding: 50px 490px;
+    padding: 50px 300px;
     gap: 24px;
 
     font-family: sans-serif;
@@ -871,7 +873,11 @@ color: #D4AF37;
     border: none;
     background-color: #D4AF37;
     margin-top: 30px;
-    height: 350px;
+    height: 410px;
+}
+
+.divisor_2{
+    height: 450px;
 }
 
 .informações2_estrutura{
@@ -1237,4 +1243,42 @@ max-width: 22px;
 color: #A1B2C8;
 font-family: sans-serif;
 font-size: 15px;
+}
+
+
+/*botões compra*/
+
+.dois_botoes{
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+gap: 40px;
+
+
+}
+
+.dois_botoes button{
+flex: 1;
+padding: 15px;
+max-width: 300px;
+border-radius: 8px;
+border: none;
+background-color: #D4AF37;
+color: #FFFFFF;
+font-weight: bold;
+font-family: sans-serif;
+cursor: pointer;
+
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.10);
+
+transition: background-color 0.4s ease, 
+                color 0.4s ease, 
+                transform 0.4s cubic-bezier(0.25, 1, 0.5, 1), 
+                box-shadow 0.4s cubic-bezier(0.25, 1, 0.5, 1); 
+
+}
+
+.dois_botoes button:hover {
+    transform: scale(1.02); 
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2); /* Aumentei um pouquinho a opacidade para destacar mais no botão dourado */
 }
